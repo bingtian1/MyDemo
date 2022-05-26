@@ -1,4 +1,4 @@
-import com.example.demo.Control.MyDemo;
+import com.example.demo.controller.MyDemo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,6 +17,5 @@ public class DemoTest {
 
     @Test
     public void test1(){
-        System.out.println(myDemo.myTest("apple"));
     }
 }
