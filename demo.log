@@ -1,0 +1,412 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-24 15:45:15.642  INFO 2527 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-24 15:45:16.647  INFO 2527 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f62dc818-4136-3669-ac5d-a543dbf6f3f2
+2022-05-24 15:45:17.017  INFO 2527 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-24 15:45:17.048  INFO 2527 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 15:45:17.048  INFO 2527 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-24 15:45:17.222  INFO 2527 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-24 15:45:17.222  INFO 2527 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1520 ms
+2022-05-24 15:45:17.393  WARN 2527 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-24 15:45:17.393  INFO 2527 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-24 15:45:17.419  INFO 2527 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@29d89d5d
+2022-05-24 15:45:17.543  WARN 2527 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-24 15:45:17.543  INFO 2527 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-24 15:45:17.664  INFO 2527 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-24 15:45:18.099  INFO 2527 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-24 15:45:18.129  WARN 2527 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-05-24 15:45:18.130  INFO 2527 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-24 15:45:18.135  INFO 2527 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-24 15:45:18.154  INFO 2527 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-24 15:45:18.157 ERROR 2527 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-24 15:46:37.762  INFO 2828 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-24 15:46:38.667  INFO 2828 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f62dc818-4136-3669-ac5d-a543dbf6f3f2
+2022-05-24 15:46:39.002  INFO 2828 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-24 15:46:39.012  INFO 2828 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 15:46:39.013  INFO 2828 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-24 15:46:39.066  INFO 2828 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-24 15:46:39.066  INFO 2828 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1252 ms
+2022-05-24 15:46:39.165  WARN 2828 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-24 15:46:39.165  INFO 2828 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-24 15:46:39.177  INFO 2828 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@29d89d5d
+2022-05-24 15:46:39.274  WARN 2828 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-24 15:46:39.274  INFO 2828 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-24 15:46:39.457  INFO 2828 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-24 15:46:39.863  INFO 2828 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-24 15:46:39.900  INFO 2828 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path '/demo'
+2022-05-24 15:46:39.975  INFO 2828 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.123 seconds (JVM running for 3.594)
+2022-05-24 15:47:33.493  INFO 2828 --- [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 15:47:33.493  INFO 2828 --- [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 15:47:33.499  INFO 2828 --- [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 10:32:32.310  INFO 6683 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 10:32:33.416  INFO 6683 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 10:32:33.926  INFO 6683 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 10:32:33.949  INFO 6683 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 10:32:33.949  INFO 6683 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 10:32:34.128  INFO 6683 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 10:32:34.128  INFO 6683 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1759 ms
+2022-05-26 10:32:34.288  WARN 6683 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:32:34.288  INFO 6683 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:32:34.301  INFO 6683 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 10:32:34.414  WARN 6683 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:32:34.414  INFO 6683 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:32:34.620  INFO 6683 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 10:32:35.108  INFO 6683 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 10:32:35.159  WARN 6683 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-05-26 10:32:35.160  INFO 6683 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-26 10:32:35.165  INFO 6683 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-26 10:32:35.184  INFO 6683 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-26 10:32:35.187 ERROR 6683 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 10:35:08.330  INFO 8009 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 10:35:09.361  INFO 8009 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 10:35:09.700  INFO 8009 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 10:35:09.713  INFO 8009 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 10:35:09.714  INFO 8009 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 10:35:09.776  INFO 8009 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 10:35:09.776  INFO 8009 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1386 ms
+2022-05-26 10:35:09.919  WARN 8009 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:35:09.919  INFO 8009 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:35:09.938  INFO 8009 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 10:35:10.041  WARN 8009 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:35:10.041  INFO 8009 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:35:10.213  INFO 8009 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 10:35:10.688  INFO 8009 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 10:35:10.736  INFO 8009 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path '/demo'
+2022-05-26 10:35:10.754  INFO 8009 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.438 seconds (JVM running for 4.328)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 10:44:34.261  INFO 12766 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 10:44:35.170  INFO 12766 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 10:44:35.511  INFO 12766 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 10:44:35.522  INFO 12766 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 10:44:35.522  INFO 12766 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 10:44:35.600  INFO 12766 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 10:44:35.600  INFO 12766 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1287 ms
+2022-05-26 10:44:35.710  WARN 12766 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:44:35.710  INFO 12766 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:44:35.723  INFO 12766 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 10:44:35.816  WARN 12766 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:44:35.816  INFO 12766 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:44:35.971  INFO 12766 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 10:44:36.467  INFO 12766 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 10:44:36.509  INFO 12766 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path '/demo'
+2022-05-26 10:44:36.528  INFO 12766 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.272 seconds (JVM running for 3.757)
+2022-05-26 10:44:48.960  INFO 12766 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 10:45:21.615  INFO 13218 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 10:45:22.523  INFO 13218 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 10:45:22.846  INFO 13218 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 10:45:22.858  INFO 13218 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 10:45:22.858  INFO 13218 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 10:45:22.917  INFO 13218 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 10:45:22.917  INFO 13218 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1242 ms
+2022-05-26 10:45:23.014  WARN 13218 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:45:23.014  INFO 13218 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:45:23.026  INFO 13218 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 10:45:23.131  WARN 13218 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:45:23.131  INFO 13218 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:45:23.293  INFO 13218 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 10:45:23.692  INFO 13218 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 10:45:23.727  INFO 13218 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path '/demo'
+2022-05-26 10:45:23.801  INFO 13218 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.239 seconds (JVM running for 3.75)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 10:55:04.615  INFO 18064 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 10:55:05.573  INFO 18064 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 10:55:05.914  INFO 18064 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 10:55:05.926  INFO 18064 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 10:55:05.926  INFO 18064 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 10:55:05.984  INFO 18064 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 10:55:05.984  INFO 18064 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
+2022-05-26 10:55:06.086  WARN 18064 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:55:06.086  INFO 18064 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:55:06.098  INFO 18064 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 10:55:06.205  WARN 18064 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 10:55:06.205  INFO 18064 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 10:55:06.366  INFO 18064 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 10:55:06.855  INFO 18064 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 10:55:06.883  WARN 18064 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-05-26 10:55:06.885  INFO 18064 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-26 10:55:06.891  INFO 18064 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-26 10:55:06.907  INFO 18064 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-26 10:55:06.909 ERROR 18064 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 11:01:51.237  INFO 21477 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 11:01:52.131  INFO 21477 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 11:01:52.485  INFO 21477 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 11:01:52.497  INFO 21477 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 11:01:52.497  INFO 21477 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 11:01:52.557  INFO 21477 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 11:01:52.558  INFO 21477 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1261 ms
+2022-05-26 11:01:52.667  WARN 21477 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:01:52.667  INFO 21477 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:01:52.680  INFO 21477 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 11:01:52.788  WARN 21477 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:01:52.788  INFO 21477 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:01:52.949  INFO 21477 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:01:53.472  INFO 21477 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 11:01:53.497  WARN 21477 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-05-26 11:01:53.499  INFO 21477 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:01:53.504  INFO 21477 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-26 11:01:53.527  INFO 21477 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-26 11:01:53.530 ERROR 21477 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 11:02:21.768  INFO 21754 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 11:02:22.668  INFO 21754 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 11:02:23.020  INFO 21754 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 11:02:23.032  INFO 21754 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 11:02:23.032  INFO 21754 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 11:02:23.096  INFO 21754 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 11:02:23.096  INFO 21754 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2022-05-26 11:02:23.213  WARN 21754 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:02:23.213  INFO 21754 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:02:23.226  INFO 21754 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 11:02:23.340  WARN 21754 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:02:23.340  INFO 21754 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:02:23.514  INFO 21754 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:02:23.934  INFO 21754 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 11:02:23.959  WARN 21754 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-05-26 11:02:23.961  INFO 21754 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:02:23.964  INFO 21754 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-26 11:02:23.978  INFO 21754 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-26 11:02:23.980 ERROR 21754 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 11:03:27.327  INFO 22335 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 11:03:28.282  INFO 22335 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 11:03:28.677  INFO 22335 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 11:03:28.690  INFO 22335 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 11:03:28.691  INFO 22335 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 11:03:28.761  INFO 22335 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 11:03:28.761  INFO 22335 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1371 ms
+2022-05-26 11:03:28.857  WARN 22335 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:03:28.857  INFO 22335 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:03:28.871  INFO 22335 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 11:03:28.979  WARN 22335 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:03:28.979  INFO 22335 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:03:29.149  INFO 22335 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:03:29.556  INFO 22335 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 11:03:29.587  WARN 22335 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-05-26 11:03:29.588  INFO 22335 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:03:29.591  INFO 22335 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-26 11:03:29.609  INFO 22335 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-26 11:03:29.612 ERROR 22335 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 11:05:13.991  INFO 23239 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 11:05:14.901  INFO 23239 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 11:05:15.242  INFO 23239 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 11:05:15.254  INFO 23239 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 11:05:15.254  INFO 23239 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 11:05:15.305  INFO 23239 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 11:05:15.305  INFO 23239 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1298 ms
+2022-05-26 11:05:15.405  WARN 23239 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:05:15.406  INFO 23239 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:05:15.418  INFO 23239 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@446293d
+2022-05-26 11:05:15.524  WARN 23239 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:05:15.524  INFO 23239 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:05:15.677  INFO 23239 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:05:16.170  INFO 23239 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 11:05:16.213  INFO 23239 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path '/demo'
+2022-05-26 11:05:16.292  INFO 23239 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.297 seconds (JVM running for 3.808)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2022-05-26 11:05:42.336  INFO 23355 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-05-26 11:05:43.292  INFO 23355 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=da75a9dd-c5c8-3950-b5c6-33bd764cd9ef
+2022-05-26 11:05:43.635  INFO 23355 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-05-26 11:05:43.646  INFO 23355 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-26 11:05:43.646  INFO 23355 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-26 11:05:43.699  INFO 23355 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-05-26 11:05:43.699  INFO 23355 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2022-05-26 11:05:43.788  WARN 23355 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:05:43.788  INFO 23355 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:05:43.800  INFO 23355 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69997e9d
+2022-05-26 11:05:43.891  WARN 23355 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-05-26 11:05:43.891  INFO 23355 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-05-26 11:05:44.065  INFO 23355 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-26 11:05:44.497  INFO 23355 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-26 11:05:44.542  INFO 23355 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path '/demo'
+2022-05-26 11:05:44.563  INFO 23355 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.089 seconds (JVM running for 3.594)
